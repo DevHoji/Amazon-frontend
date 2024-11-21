@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import classes from "./cart.module.css";
 import LayOut from "../../Components/LayOut/LayOut";
 import { DataContext } from "../../Components/DataProvider/DataProvider";
-import ProductCard from "../../Components/Product/productCard";
+import ProductCard from "../../Components/Product/ProductCard";
 import CurrencyFormat from "../../Components/CurrencyFormat/CurrencyFormat";
 import {Link} from 'react-router-dom'
 import {Type} from "../../Utility/action.type"
