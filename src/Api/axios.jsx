@@ -1,7 +1,8 @@
 import axios from "axios";
 
+// Replace the base URL with the Vercel deployed URL
 const axiosInstance = axios.create({
-  baseURL: "https://us-central1-your-project-id.cloudfunctions.net/api", // Firebase Functions URL
+  baseURL: "https://amazon-api-deploy-oyi3.vercel.app/", // Your Vercel backend URL
 });
 
 export { axiosInstance };
